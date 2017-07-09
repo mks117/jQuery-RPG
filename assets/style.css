@@ -1,0 +1,42 @@
+body {
+	background-color: lightgray;
+}
+
+/* HEADER */
+#header {
+	margin-top: 10px;
+	border: 5px solid black;
+}
+
+#game-title {
+	text-align: center;
+	margin: auto;
+}
+
+/* GAME BOARD */
+#game-board {
+	margin: auto;
+	height: 610px;
+	background-color: gray;
+	border: 5px solid black;
+	width: 97.4%;
+	background-image: url("images/grass.jpg")
+}
+
+/* CHARACTER */
+#character {
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	border: 5px solid black;
+	top: 500px;
+	/*margin: auto;*/
+}
+
+#character-content {
+	padding: 5px;
+}
+.char-pic {
+	align-self: center;
+	background-color: gray;
+}
